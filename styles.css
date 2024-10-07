@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 6em;
+}
+
+main{
+    margin: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img{
+    width: 100%
+}
+
+article {
+    padding: 18px;
+    box-shadow: 0px 0px 1px #000;
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+
+    h1{
+        font-size: 4em;
+    }
+
+    main{
+        margin: 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+  }
